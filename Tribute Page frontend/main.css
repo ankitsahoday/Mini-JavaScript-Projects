@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+
+#main
+
+{   
+    background-color:#BEBEBE;
+    margin: 10px;
+    margin-bottom: 12px;    
+}
+
+.heading
+{
+    font-size: 48px;
+    text-align: center;
+    font-family:'Source Sans Pro',sans-serif;
+    padding: 10px;
+}
+
+#motto{
+    font-size: 20px;
+    text-align: center;
+}
+
+#img-div
+{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;  */
+    justify-content: center;
+    /* border-radius: 10px; */
+    margin: 15px;
+   
+}
+
+#image
+{   display: flex;
+    justify-content: center;
+    align-self: center;
+    max-width: fit-content;
+}
+
+
+
+#img-caption
+{
+    display: flex; 
+    align-self: ce;
+}
+
+#tribute-info
+{
+    display: flex;
+    font-family: 'Source Sans Pro',sans-serif;
+    justify-content: center;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+
+
+
+#box
+{
+    margin:10px;
+    width:50%;
+    /* background-color: blueviolet; */
+    
+}
+#strong-text
+{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+.listed
+{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+font-size: 20px;
+}
+ 
+.listed li
+{
+    line-height: 150%;
+}
+
+
+#quote
+{
+    font-size: larger;
+}
+#tribute-link
+{
+    font-size: large;
+    font-weight: bolder;
+}
